@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90' fill='%23FFD700'>✉️</text></svg>">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto+Condensed:wght@400;700&family=Merriweather:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <h1 class="logo">Elegância & Potência</h1>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="marcas.html">Marcas</a></li>
+                <li><a href="inovacoes.html">Inovações</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção de Conteúdo de Contato -->
+        <section class="form-section">
+            <h3>Fale Conosco</h3>
+            <p>Seja para compartilhar sua paixão por carros de luxo, tirar dúvidas ou fazer sugestões, utilize o
+                formulário abaixo. Sua opinião é muito importante para nós. Prometemos responder o mais breve possível
+                para continuar a conversa sobre este universo fascinante.</p>
+            <form class="contact-form">
+                <fieldset>
+                    <legend>Informações Pessoais</legend>
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="senha">Senha (para acesso futuro):</label>
+                    <input type="password" id="senha" name="senha" required>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+
+                    <label for="data-nascimento">Data de Nascimento:</label>
+                    <input type="date" id="data-nascimento" name="data-nascimento">
+
+                    <label for="idade">Idade:</label>
+                    <input type="number" id="idade" name="idade" min="18" max="99">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Assunto da Mensagem</legend>
+                    <label for="assunto">Assunto:</label>
+                    <select id="assunto" name="assunto" required>
+                        <option value="">Selecione um assunto</option>
+                        <option value="sugestao">Sugestão de Conteúdo</option>
+                        <option value="parceria">Parceria</option>
+                        <option value="relato-pessoal">Relato Pessoal</option>
+                        <option value="problema-site">Problema no Site</option>
+                        <option value="outros">Outros</option>
+                    </select>
+
+                    <label>Tipo de Veículo de Interesse:</label>
+                    <label><input type="checkbox" name="veiculo[]" value="supercarro"> Supercarro</label>
+                    <label><input type="checkbox" name="veiculo[]" value="sedan"> Sedã de Luxo</label>
+                    <label><input type="checkbox" name="veiculo[]" value="suv"> SUV de Luxo</label>
+                    <label><input type="checkbox" name="veiculo[]" value="antigo"> Clássico/Antigo</label>
+
+                    <label>Qual sua preferência de motorização?</label>
+                    <label><input type="radio" name="motorizacao" value="combustao"> Combustão</label>
+                    <label><input type="radio" name="motorizacao" value="hibrido"> Híbrido</label>
+                    <label><input type="radio" name="motorizacao" value="eletrico"> Elétrico</label>
+
+                    <label for="link">Link de Interesse (opcional):</label>
+                    <input type="url" id="link" name="link">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Detalhes da Mensagem</legend>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+                </fieldset>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+
+        <!-- Seção de Listas -->
+        <section class="lists-section">
+            <h3>Nossos Principais Valores</h3>
+            <ol class="styled-list">
+                <li>Paixão por carros de luxo e sua história.</li>
+                <li>Compromisso com a precisão e a qualidade do conteúdo.</li>
+                <li>Respeito pela comunidade de entusiastas.</li>
+            </ol>
+
+            <h3>Próximos Conteúdos</h3>
+            <ul class="styled-list">
+                <li>Análise de protótipos de carros elétricos.</li>
+                <li>Entrevista com um designer de interiores automotivo.</li>
+                <li>Guia de manutenção de veículos clássicos.</li>
+            </ul>
+
+            <h3>Tópicos Populares</h3>
+            <ol class="styled-list">
+                <li>A história da Ferrari.</li>
+                <li>O futuro dos veículos autônomos.</li>
+                <li>Onde comprar carros de luxo.</li>
+            </ol>
+
+            <h3>Materiais para Download</h3>
+            <ul class="styled-list">
+                <li>E-book: Os 10 Carros Mais Caros do Mundo.</li>
+                <li>Checklist: O que observar ao comprar um clássico.</li>
+                <li>Guia rápido: Motores V8 vs. V12.</li>
+            </ul>
+
+            <h3>Modelos em Destaque</h3>
+            <ol class="styled-list">
+                <li>Rolls-Royce Ghost.</li>
+                <li>Bentley Continental GT.</li>
+                <li>Porsche 911 Turbo S.</li>
+            </ol>
+
+            <h3>Parceiros do Site</h3>
+            <ul class="styled-list">
+                <li>Luxury Auto Club.</li>
+                <li>Garage Magazine.</li>
+                <li>Performance Motors.</li>
+            </ul>
+        </section>
+
+        <section class="media-section-darker">
+            <h3>Áudio: Challenger noti</h3>
+            <audio controls class="audio-player">
+                <source src="challenger_noti.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <p class="caption">O som do Dodge Challenger.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-info">
+                <h4>Sobre Nós</h4>
+                <p>Elegância e Potência é um site dedicado a entusiastas de carros de luxo, explorando sua história e
+                    inovação.</p>
+            </div>
+            <div class="footer-info">
+                <h4>Contato e Redes Sociais</h4>
+                <div class="social-icons">
+                    <p>Contato: (61) 99138-9631</p>
+                    <a href="https://instagram.com" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://facebook.com" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://youtube.com" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Elegância e Potência. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
