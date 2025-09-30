@@ -6,7 +6,7 @@ Onde o Luxo Encontra a Velocidade.
 Esse site tem o objetivo de mostrar ao publico a história a respeito da evolução automotiva de luxo, como é hoje em dia e como futuramante possa ser.
 
 ##  Linguagens Utilizadas
-- **HTML5**
+- **HTML**
 - **CSS**
 
 ### Pré-requisitos
