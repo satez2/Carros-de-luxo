@@ -15,8 +15,8 @@ Esse site tem o objetivo de mostrar ao publico a história a respeito da evoluç
 
 ## Páginas Disponíveis
 
-- **Início** (`/`) - Página inicial visão geral sobre o tema
-- **História** (`/História`) - As Origens da Opulência sobre Rodas
-- **Marcas** (`/Marcas`) - O Legado das Marcas de Prestígio
-- **Inovações** (`/Inovações`) - Tecnologia Que Redefine o Luxo
-- **Contato** (`/contato`) - Informações de contato 
+- **Início** - Página inicial visão geral sobre o tema
+- **História** - As Origens da Opulência sobre Rodas
+- **Marcas**) - O Legado das Marcas de Prestígio
+- **Inovações** - Tecnologia Que Redefine o Luxo
+- **Contato** - Informações de contato 
